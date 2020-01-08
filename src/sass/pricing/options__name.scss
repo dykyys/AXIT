@@ -1,0 +1,15 @@
+.options__name {
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid $prime-wite-color;
+  background-color: $social-title-color;
+}
+
+.options__name-title {
+  @extend %list;
+  font-size: 20px;
+  color: $prime-wite-color;
+  font-family: $font-social-title;
+  text-align: center;
+  line-height: 59px;
+}

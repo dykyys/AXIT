@@ -1,0 +1,21 @@
+.style__title {
+  @extend %list;
+  font-size: 36px;
+  line-height: 43px;
+  color: $features-info-title;
+  font-family: $our-process-title;
+  text-align: center;
+  padding-top: 104px;
+  text-transform: uppercase;
+
+  &::after {
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: $hover-button-color;
+    content: '';
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 28px;
+  }
+}

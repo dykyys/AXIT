@@ -1,0 +1,10 @@
+.wrapper {
+  width: 100%;
+  height: 711px;
+  background-image: url(../images/image.png);
+
+  @media (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image: url(../images/image@2x.png);
+  }
+}

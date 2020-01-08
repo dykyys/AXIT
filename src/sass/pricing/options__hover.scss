@@ -1,0 +1,18 @@
+.options__hover {
+  height: 5px;
+  background-color: $hover-button-color;
+}
+
+.options__hover-popular {
+  height: 40px;
+}
+
+.options__hover-text {
+  color: $prime-wite-color;
+  font-family: $font-social-title;
+  line-height: 40px;
+  @extend %list;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}

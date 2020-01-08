@@ -1,0 +1,24 @@
+.options__price {
+  width: 100%;
+  height: 150px;
+  background-color: $social-title-color;
+}
+
+.options__price-style {
+  @extend %list;
+  font-size: 35px;
+  color: $prime-wite-color;
+  font-family: $price-title;
+  text-align: center;
+  padding-top: 52px;
+  margin-bottom: 21px;
+}
+
+.options__price-text {
+  @extend %list;
+  font-size: 14px;
+  color: $prime-wite-color;
+  font-family: $font-navigation;
+  text-align: center;
+  opacity: 0.5019607843137255;
+}

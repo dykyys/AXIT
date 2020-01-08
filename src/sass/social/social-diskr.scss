@@ -1,0 +1,20 @@
+.social-discr {
+  width: 363px;
+  align-self: center;
+}
+
+.social__title {
+  @extend %list;
+  font-size: 20px;
+  color: $social-title-color;
+  font-family: $font-social-title;
+  margin-bottom: 8px;
+}
+
+.social__text {
+  @extend %list;
+  font-size: 14px;
+  line-height: 20px;
+  color: $social-text-color;
+  font-family: $font-social-text;
+}

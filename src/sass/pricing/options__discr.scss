@@ -1,0 +1,15 @@
+.options__discr {
+  width: 100%;
+  height: 40px;
+  background-color: $prime-wite-color;
+}
+
+.options__discr-text {
+  @extend %list;
+  font-size: 14px;
+  color: $social-text-color;
+  font-family: $font-social-text;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+}

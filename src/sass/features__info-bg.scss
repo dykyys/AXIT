@@ -1,0 +1,11 @@
+.features__info-up {
+  &::before {
+    background-image: url(../images/feature__info-up.png);
+  }
+}
+
+.features__info-down {
+  &::before {
+    background-image: url(../images/feature__info-down.png);
+  }
+}

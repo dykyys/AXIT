@@ -1,0 +1,32 @@
+.banner__text {
+  @extend %list;
+  width: 515px;
+  height: 395px;
+  margin-top: 106px;
+}
+
+.banner__text-description {
+  font-size: 36px;
+  color: $prime-wite-color;
+  font-family: $font-banner;
+
+  &::after {
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: $prime-wite-color;
+    content: '';
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+
+.banner__text-info {
+  font-size: 16px;
+  line-height: 23px;
+  color: $prime-wite-color;
+  font-family: $font-banner;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,27 @@
+.features__button {
+  @extend %button;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__tab {
+  @extend %button;
+  width: 112px;
+  height: 112px;
+  background-color: $social-title-color;
+  border: 1px solid $prime-wite-color;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 20px;
+  color: $prime-wite-color;
+  font-family: $font-social-title;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-button-color;
+  }
+}
+

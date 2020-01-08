@@ -1,0 +1,6 @@
+.secondary-style-title {
+  @extend %list;
+  font-size: 20px;
+  color: $social-title-color;
+  font-family: $font-social-title;
+}

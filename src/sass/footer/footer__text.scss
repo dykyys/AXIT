@@ -1,0 +1,9 @@
+.footer__text {
+  @extend %list;
+  font-size: 12px;
+  color: $prime-wite-color;
+  font-family: $font-social-text;
+  align-self: center;
+  margin-top: 12px;
+  opacity: 0.5019607843137255;
+}

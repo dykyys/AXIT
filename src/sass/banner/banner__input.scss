@@ -1,0 +1,56 @@
+.banner__input {
+  width: 360px;
+  height: 362px;
+  align-self: flex-end;
+  border-radius: 4px;
+}
+
+.banner__input-header {
+  height: 54px;
+  background-color: $features-prime-color;
+  border-radius: 4px 4px 0px 0px;
+
+}
+
+.banner__input-title {
+  @extend %list;
+  font-size: 20px;
+  color: $social-title-color;
+  font-family: $font-social-title;
+  text-align: center;
+  line-height: 54px;
+}
+
+.banner__input-span {
+  text-transform: uppercase;
+  color: $hover-button-color;
+}
+
+.banner__input-button {
+  @extend %list;
+  @extend %button;
+  width: 360px;
+  height: 52px;
+  background-color: $hover-button-color;
+  font-size: 15px;
+  font-family: $font-navigation;
+  color: $prime-wite-color;
+  border-radius: 0px 0px 4px 4px;
+
+}
+
+.banner__input-area {
+  @extend %list;
+  height: 256px;
+  width: 100%;
+  background-color: $prime-wite-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__input_container {
+  width: 286px;
+  height: 40px;
+  margin-top: 30px;
+}

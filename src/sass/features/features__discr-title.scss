@@ -1,0 +1,23 @@
+.features__discr-title {
+  @extend %list;
+  font-size: 20px;
+  color: $navigation-background-color;
+  font-family: $font-social-title;
+}
+
+.features__discr-title-first {
+  margin-bottom: 51px;
+}
+
+.features__discr-title-second {
+  &::after {
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: $hover-button-color;
+    content: '';
+    margin: 0;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+}

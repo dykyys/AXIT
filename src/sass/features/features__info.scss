@@ -1,0 +1,36 @@
+.features__info {
+  @extend %list;
+}
+
+.features__info-title {
+  @extend %list;
+  font-size: 14px;
+  color: $navigation-background-color;
+  font-family: $font-navigation;
+  line-height: 17px;
+  color: $features-info-title;
+}
+
+.features__info .features__info-item :first-child {
+  margin-top: 40px;
+}
+
+.features__info-item {
+  padding-left: 70px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 33px;
+    background-color: $prime-wite-color;
+    border: 2px solid $hover-button-color;
+
+  }
+}

@@ -1,0 +1,7 @@
+.customers__messeg {
+  @extend %list;
+  height: 148px;
+  background-image: url(../../images/testimonials-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}

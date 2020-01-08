@@ -1,0 +1,14 @@
+.site-navigation {
+  @extend %list;
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-navigation__link {
+  @extend %link;
+  font-size: 14px;
+  color: $prime-wite-color;
+  font-family: $font-navigation;
+}

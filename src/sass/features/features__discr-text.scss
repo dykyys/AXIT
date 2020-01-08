@@ -1,0 +1,19 @@
+.features__discr-text {
+  @extend %list;
+  font-size: 14px;
+  line-height: 20px;
+  color: $social-text-color;
+  font-family: $font-social-text;
+}
+
+.features__discr-text-first {
+  margin-bottom: 20px;
+}
+
+.features__discr-text-second{
+  margin-bottom: 46px;
+}
+
+.features__discr-text-third{
+  margin-bottom: 26px;
+}

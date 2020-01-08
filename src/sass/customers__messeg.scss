@@ -1,0 +1,11 @@
+.customers__messeg {
+  @extend %list;
+  height: 148px;
+  background-image: url(../images/testimonials-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/testimonials-img@2x.png);
+    }
+}

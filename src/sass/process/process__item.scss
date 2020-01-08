@@ -1,0 +1,36 @@
+.process__item {
+  @extend %list;
+  width: 354px;
+  text-align: center;
+  margin-top: 80px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    border: 2px solid $hover-button-color;
+    margin-bottom: 27px;
+  }
+}
+
+.process__item-lamp {
+  &::before {
+    background-image: url(../../images/lamp.png);
+  }
+}
+
+.process__item-keyboard {
+  &::before {
+    background-image: url(../../images/keyboard.png);
+  }
+}
+
+.process__item-energy {
+  &::before {
+    background-image: url(../../images/energy.png);
+  }
+}

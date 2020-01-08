@@ -1,0 +1,7 @@
+.style__text {
+  @extend %list;
+  font-size: 14px;
+  color: $social-text-color;
+  font-family: $font-social-text;
+  text-align: center;
+}

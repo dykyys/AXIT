@@ -1,0 +1,9 @@
+.castom__title {
+  color: $prime-wite-color;
+  padding-top: 70px;
+
+  &::after {
+    background-color: $prime-wite-color;
+  }
+
+}

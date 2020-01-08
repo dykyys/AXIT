@@ -1,0 +1,9 @@
+.primery-button {
+  @extend %button;
+  font-size: 15px;
+  color: $prime-wite-color;
+  font-family: $font-navigation;
+  background-color: $button-color;
+  padding: 11px 24px;
+  border: 2px solid $prime-wite-color;
+}
